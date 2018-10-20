@@ -1,0 +1,87 @@
+Part-A:
+
+$ python mydig.py www.cnn.com A
+
+id: 8049
+opcode: QUERY
+rcode : NOERROR
+flags: QR AA RD
+
+Question:
+www.cnn.com. IN A
+
+Answer:
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+
+Authority:
+cnn.com. 3600 IN NS ns-1086.awsdns-07.org.
+cnn.com. 3600 IN NS ns-1630.awsdns-11.co.uk.
+cnn.com. 3600 IN NS ns-47.awsdns-05.com.
+cnn.com. 3600 IN NS ns-576.awsdns-08.net.
+
+Query Time: 1084.40089226ms
+WHEN: Wed Sep 26 20:22:43 2018
+MSG SIZE rcvd: 332
+
+
+
+$ python mydig.py www.cnn.com NS
+
+id: 62497
+opcode: QUERY
+rcode : NOERROR
+flags: QR AA RD
+
+Question:
+www.cnn.com. IN NS
+
+Answer:
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+
+Authority:
+cnn.com. 3600 IN NS ns-1086.awsdns-07.org.
+cnn.com. 3600 IN NS ns-1630.awsdns-11.co.uk.
+cnn.com. 3600 IN NS ns-47.awsdns-05.com.
+cnn.com. 3600 IN NS ns-576.awsdns-08.net.
+
+Query Time: 564.479112625ms
+WHEN: Wed Sep 26 20:24:59 2018
+MSG SIZE rcvd: 334
+
+
+
+
+
+$ python mydig.py www.cnn.com MX
+
+id: 42688
+opcode: QUERY
+rcode : NOERROR
+flags: QR AA RD
+
+Question:
+www.cnn.com. IN MX
+
+Answer:
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+
+Authority:
+cnn.com. 3600 IN NS ns-1086.awsdns-07.org.
+cnn.com. 3600 IN NS ns-1630.awsdns-11.co.uk.
+cnn.com. 3600 IN NS ns-47.awsdns-05.com.
+cnn.com. 3600 IN NS ns-576.awsdns-08.net.
+
+Query Time: 573.640108109ms
+WHEN: Wed Sep 26 20:25:16 2018
+MSG SIZE rcvd: 334
+
+
+----------------------------------------------------------------
+
+Part - B
+
+$ python mydnssec.py www.google.com
+DNSSec not supported
+
+Looks like there are some vacancies to fill in the implementation, my code is not working properly.
+

@@ -1,0 +1,10 @@
+Part B Implementation
+
+1) I am first trying to validate root server by retrieving the key and cross checking it across the root key digests 
+
+2) I am also creating DS record using SHA1 and SHA256 algorithms from dns key response wherever required.
+
+3) After validation at each state, I am storing the current DS record for validation in the next state
+
+
+Looks like there are some vacancies to fill in the implementation, my code is not working properly.

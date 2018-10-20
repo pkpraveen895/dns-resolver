@@ -1,0 +1,245 @@
+Experiment - 1 : Using My dns resolver
+
+website: google.com
+avg time: 0.353014349937 sec
+
+website: youtube.com
+avg time: 0.409842920303 sec
+
+website: facebook.com
+avg time: 0.432399129868 sec
+
+website: baidu.com
+avg time: 0.700040316582 sec
+
+website: wikipedia.org
+avg time: 0.477601623535 sec
+
+website: reddit.com
+avg time: 0.342815136909 sec
+
+website: yahoo.com
+avg time: 0.374724030495 sec
+
+website: google.co.in
+avg time: 0.756887888908 sec
+
+website: Qq.com
+avg time: 0.628175258636 sec
+
+website: Toabao.com
+avg time: 0.414785504341 sec
+
+website: amazon.com
+avg time: 0.378340363503 sec
+
+website: Tmall.com
+avg time: 0.430775785446 sec
+
+website: Twitter.com
+avg time: 0.329068231583 sec
+
+website: google.co.jp
+avg time: 0.72980837822 sec
+
+website: instagram.com
+avg time: 0.320581030846 sec
+
+website: live.com
+avg time: 0.337737798691 sec
+
+website: Vk.com
+avg time: 0.478205943108 sec
+
+website: Sohu.com
+avg time: 0.744131278992 sec
+
+website: Sina.com.cn
+avg time: 2.72896294594 sec
+
+website: jd.com
+avg time: 0.858358716965 sec
+
+website: Weibo.com
+avg time: 0.757789182663 sec
+
+website: 360.cn
+avg time: 1.22399289608 sec
+
+website: google.de
+avg time: 0.520557522774 sec
+
+website: google.co.uk
+avg time: 0.431894278526 sec
+
+website: google.com.br
+avg time: 0.971626329422 sec
+
+
+
+
+
+Experiment - 2 : Using local dns resolver - 192.168.43.1
+
+
+website: google.com
+avg time: 0.0105053424835 sec
+
+website: youtube.com
+avg time: 0.00881106853485 sec
+
+website: facebook.com
+avg time: 0.00799806118011 sec
+
+website: baidu.com
+avg time: 0.00795726776123 sec
+
+website: wikipedia.org
+avg time: 0.0102604150772 sec
+
+website: reddit.com
+avg time: 0.00955243110657 sec
+
+website: yahoo.com
+avg time: 0.00722150802612 sec
+
+website: google.co.in
+avg time: 0.00751087665558 sec
+
+website: Qq.com
+avg time: 0.00831301212311 sec
+
+website: Toabao.com
+avg time: 0.00826179981232 sec
+
+website: amazon.com
+avg time: 0.0078803062439 sec
+
+website: Tmall.com
+avg time: 0.00877318382263 sec
+
+website: Twitter.com
+avg time: 0.00938487052917 sec
+
+website: google.co.jp
+avg time: 0.00925464630127 sec
+
+website: instagram.com
+avg time: 0.00768051147461 sec
+
+website: live.com
+avg time: 0.00846843719482 sec
+
+website: Vk.com
+avg time: 0.00765976905823 sec
+
+website: Sohu.com
+avg time: 0.00878643989563 sec
+
+website: Sina.com.cn
+avg time: 0.00746040344238 sec
+
+website: jd.com
+avg time: 0.00785691738129 sec
+
+website: Weibo.com
+avg time: 0.00820925235748 sec
+
+website: 360.cn
+avg time: 0.00871350765228 sec
+
+website: google.de
+avg time: 0.00793373584747 sec
+
+website: google.co.uk
+avg time: 0.0107094764709 sec
+
+website: google.com.br
+avg time: 0.00857429504395 sec
+
+
+
+Experiment - 3 : Using google resolver - 8.8.8.8
+
+
+website: google.com
+avg time: 0.0973369836807 sec
+
+website: youtube.com
+avg time: 0.0695210933685 sec
+
+website: facebook.com
+avg time: 0.0780107498169 sec
+
+website: baidu.com
+avg time: 0.0518876314163 sec
+
+website: wikipedia.org
+avg time: 0.0659055709839 sec
+
+website: reddit.com
+avg time: 0.0601086378098 sec
+
+website: yahoo.com
+avg time: 0.0618573188782 sec
+
+website: google.co.in
+avg time: 0.0635358095169 sec
+
+website: Qq.com
+avg time: 0.0640582799911 sec
+
+website: Toabao.com
+avg time: 0.0575918197632 sec
+
+website: amazon.com
+avg time: 0.0564335107803 sec
+
+website: Tmall.com
+avg time: 0.0685418128967 sec
+
+website: Twitter.com
+avg time: 0.063902926445 sec
+
+website: google.co.jp
+avg time: 0.0553889274597 sec
+
+website: instagram.com
+avg time: 0.0646606206894 sec
+
+website: live.com
+avg time: 0.0518916368484 sec
+
+website: Vk.com
+avg time: 0.0451951980591 sec
+
+website: Sohu.com
+avg time: 0.0487776756287 sec
+
+website: Sina.com.cn
+avg time: 0.0481050252914 sec
+
+website: jd.com
+avg time: 0.0649182081223 sec
+
+website: Weibo.com
+avg time: 0.0490306615829 sec
+
+website: 360.cn
+avg time: 0.0444911718369 sec
+
+website: google.de
+avg time: 0.0560236930847 sec
+
+website: google.co.uk
+avg time: 0.0479331970215 sec
+
+website: google.com.br
+avg time: 0.0459890604019 sec
+
+
+Observations from the graph:
+
+It is clear that mydig tool takes considerable amount of time over local dns resolver and google resolver.
+
+Possible explanation - Local dns resolver and Google resolver could be caching the values there by they have a faster response.
